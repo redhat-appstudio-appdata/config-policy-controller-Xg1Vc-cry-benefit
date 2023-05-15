@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: config-policy-controller-0pyc
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio/user-workload@sha256:7e99afaabd42a33ed2799268c83cecc9bd06562252f767330c57e3ba0a7749ad
+        name: container-image
+        resources: {}
+status: {}
