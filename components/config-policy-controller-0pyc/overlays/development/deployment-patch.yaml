@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload@sha256:0c9abe0142b1e5718e760e157299d7b039e4c728fbb551fd3973bde4ec1fe1f5
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/config-policy-controller/config-policy-controller-0pyc@sha256:f889252325a1c51d69412546aa96376925e78e2b4544d5b3d78a24a02247333e
         name: container-image
         resources: {}
 status: {}
