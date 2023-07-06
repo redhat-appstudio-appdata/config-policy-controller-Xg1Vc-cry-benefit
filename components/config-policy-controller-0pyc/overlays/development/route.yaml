@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: config-policy-controller-0pyc
     app.kubernetes.io/part-of: config-policy-controller
-  name: config-policy-controller-r4i3
+  name: config-policy-controller-a0kj
 spec:
   port:
     targetPort: 8080
