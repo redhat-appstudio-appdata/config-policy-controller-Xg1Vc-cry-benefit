@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: config-policy-controller-0pyc
     app.kubernetes.io/part-of: config-policy-controller
-  name: config-policy-controller-pwtx
+  name: config-policy-controller-0ct7
 spec:
   port:
     targetPort: 8080
