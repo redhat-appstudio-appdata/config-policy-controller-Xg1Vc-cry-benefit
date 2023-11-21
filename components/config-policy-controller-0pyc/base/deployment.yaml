@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: config-policy-controller-0pyc
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/config-policy-controller/config-policy-controller-0pyc@sha256:02cbab891a3869dcacf1b3a51a16008d2de8aad049a26095ad5e299e78d88e13
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/config-policy-controller/config-policy-controller-0pyc@sha256:9063a585a81087b689cbcc987f253edb0cc9ea9fe15d58d1938da455e0939cb0
         imagePullPolicy: Always
         name: container-image
         ports:
