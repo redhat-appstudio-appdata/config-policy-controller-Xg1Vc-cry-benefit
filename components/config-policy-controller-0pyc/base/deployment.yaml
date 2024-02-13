@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/part-of: config-policy-controller
   name: config-policy-controller-0pyc
 spec:
-  replicas: 1
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:
